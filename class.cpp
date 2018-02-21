@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<string>
 class employee
 {
 	int emp_id;
