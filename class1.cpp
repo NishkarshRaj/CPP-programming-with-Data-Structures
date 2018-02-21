@@ -3,21 +3,21 @@
 using namespace std;
 class student
 {
-string student_name[20];
+string student_name;
 int roll_no;
 int SAP_ID;
-string Specialisation[5];
+string Specialisation;
 public:
 void Read_data()
 {
 cout<<"Enter Student's Name"<<endl;
-cin.getline(student_name);
+cin>>student_name;
 cout<<"Enter Roll number of student"<<endl;
 cin>>roll_no;
 cout<<"Enter SAP_ID of the student"<<endl;
 cin>>SAP_ID;
 cout<<"Enter the Specialisation of the student"<<endl;
-cin.getline(Specialisation);
+cin>>Specialisation;
 }
 void show()
 {

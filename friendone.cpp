@@ -4,9 +4,9 @@ class ABC
 {
 int a,b;
 public:
-void setdata()
+void setdata(int m,int n)
 {
-a=10,b=25;
+a=m,b=n;
 }
 friend float mean(class ABC x);
 };
@@ -16,7 +16,11 @@ cout<<(x.a+x.b)/2;
 }
 int main()
 {
+int m,n;
 ABC y;
-y.setdata();
+cout<<"Enter two values whose mean you want"<<endl;
+cin>>m>>n;
+y.setdata(m,n);
 mean(y);
+cout<<endl;
 }
