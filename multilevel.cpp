@@ -25,7 +25,7 @@ s1=x; s2=y;
 }
 void putm()
 {
-cout<<"Marks of roll number "<<rn;
+cout<<"Marks of roll number "<<rn<<endl;
 cout<<"Marks in subject 1 are "<<s1<<endl<<"Marks in subject 2 are "<<s2<<endl;
 }
 };
