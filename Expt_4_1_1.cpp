@@ -32,7 +32,7 @@ int main()
 location obj1(10,20),obj2(14,35),obj3;
 obj1.show();
 obj2.show();
-obj3=obj1+obj2+obj30;
+obj3=obj1+obj2+obj3;
 obj3.show();
 /*obj3=obj3+100;
 obj3.show();
