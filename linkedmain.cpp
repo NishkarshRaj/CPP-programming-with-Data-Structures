@@ -97,9 +97,14 @@ int main()
 				delete ptr;
 			break;
 		case 5: cout<<"Deletion at End"<<endl;
+				if(start->next!=NULL)
+				{
 				for(ptr=start;ptr->next!=NULL;p=ptr,ptr=ptr->next);
 				delete ptr;
 				p->next=NULL;
+				}
+				else
+				delete start;
 			break;
 		case 6: cout<<"Deletion anywhere"<<endl;
 				cout<<"Enter name of the student whose record you want to delete"<<endl;
